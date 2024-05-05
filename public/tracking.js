@@ -43,8 +43,6 @@ const options = {
        marker[location] = L.marker([crd.latitude,crd.longitude]).bindPopup("<b>"+location+"</b><br>").openPopup().addTo(map);
     }
 
-    console.log("marker------>",marker)
-
     socket.emit("user-location",{latitude:crd.latitude,longitude:crd.longitude,locationName:location})
   }
   
