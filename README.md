@@ -33,3 +33,7 @@ This project is a real-time location sharing application with geofencing capabil
 - **Customization:** OSM allows for customization of maps, enabling developers to tailor the map appearance and functionality to suit the needs of their application.
 - **Community Support:** OSM has a large and active community of contributors who continuously update and improve the map data, ensuring its accuracy and relevance.
 - **Geolocation Services:** OSM provides geolocation services, allowing users to search for locations by name or address and obtain geographic coordinates for mapping purposes.
+
+## Real-Time Location Update
+
+- When a user's location changes, the application updates the location in real-time and broadcasts the updated location to other users who have access to the shared location.
